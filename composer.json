@@ -1,0 +1,23 @@
+{
+    "name": "4uruanna/light-api",
+    "description": "A slim API skeleton",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "_4uruanna\\LightApi\\": "sources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "4uruanna",
+            "email": "adrien@villalonga.software"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.15",
+        "slim/psr7": "^1.8",
+        "php-di/slim-bridge": "^3.4"
+    }
+}
